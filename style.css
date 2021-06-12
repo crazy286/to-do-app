@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Ubuntu:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+body{
+    background-color: lightgray;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+ 
+}
+.container{
+    margin: 50px;
+    padding: 10px;
+    display: block;  
+    color: black;
+ box-shadow: 5px 5px 15px black;
+   
+}
+h1{
+   
+    text-align: center;
+}
+h3.addTasks{
+    text-align: center;
+}
+input{ 
+margin-left: 44%;
+    padding: 10px;
+    line-height: 10px;
+    align-items: center;
+    border:none;
+    border-radius: 5px;
+    
+}
+li{
+    margin-top: 5px;
+}
+.incompletes{
+    padding-left: 10px;
+}
+#addMe{
+
+    margin-left:48% ;
+    margin-top: 2%;
+    padding:5px ;
+}
+
+.btn{
+    border: none;
+    border-radius: 5px;
+    color:white;
+    background-color: black;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.btn:hover{
+    transition: 0.8s;
+    border: none;
+    border-radius: 5px;
+    color:black;
+    background-color:white;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.edit{
+    margin-left:10px}
+.delete{
+margin-left: 10px;
+padding: 10px;
+}
+.completed{
+    margin-left:10px;
+    padding: 10px;
+}
+
